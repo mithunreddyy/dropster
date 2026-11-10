@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Swift
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+*.xcuserdata
+*.xcscmblueprint
+*.moved-aside
+
+# IDE
+.idea/
+.vscode/
+
+# Builds / artifacts
+.build/
+Build/
+bin/
+obj/
+*.app
+*.dSYM
+
+# Local env and caches
+.env
+.env.*
+.cache/
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Dropster build output
+build/

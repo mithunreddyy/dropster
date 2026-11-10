@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Reading Finder's selection for the ⌥⌘D clover shortcut. -->
+    <key>com.apple.security.automation.apple-events</key>
+    <true/>
+    <!-- Not sandboxed yet: external codecs (ffmpeg, cwebp) are run from Homebrew paths.
+         See docs/SECURITY.md for the sandboxing plan. No network entitlement is needed. -->
+</dict>
+</plist>

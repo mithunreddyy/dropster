@@ -1,0 +1,25 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.12600,0.14448,0.21000,1.00000",
+      "srgb:0.04950,0.05112,0.09000,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "name" : "Petals",
+      "layers" : [ { "name" : "petals", "image-name" : "petals.png", "glass" : true } ],
+      "shadow" : { "kind" : "layer-color", "opacity" : 0.5 },
+      "translucency" : { "enabled" : true, "value" : 0.15 }
+    },
+    {
+      "name" : "Backdrop",
+      "layers" : [ { "name" : "backdrop", "image-name" : "backdrop.png", "glass" : false } ],
+      "shadow" : { "kind" : "none", "opacity" : 0 },
+      "translucency" : { "enabled" : false, "value" : 0 }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [ "macOS" ]
+  }
+}
